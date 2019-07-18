@@ -1,0 +1,615 @@
+{
+  "src": [
+    {
+      "tag": "curtain-fixheight-type0",
+      "alias": "未命名",
+      "headerSection": {
+        "configs": [
+          {
+            "unit": "米",
+            "value": "3",
+            "id": "A11",
+            "title": "宽度"
+          },
+          {
+            "id": "A10",
+            "value": "2.8",
+            "unit": "米",
+            "title": "高度"
+          },
+          {
+            "value": "2",
+            "title": "倍率",
+            "id": "A12"
+          },
+          {
+            "unit": "米",
+            "title": "用料",
+            "id": "A13",
+            "value": "4.0"
+          },
+          {
+            "title": "布型号",
+            "id": "A40",
+            "value": "A-100"
+          },
+          {
+            "value": "50",
+            "unit": "元/米",
+            "title": "布单价",
+            "id": "A14"
+          },
+          {
+            "value": "200.0",
+            "unit": "元",
+            "title": "布小计",
+            "id": "A15"
+          },
+          {
+            "title": "纱型号",
+            "id": "A41",
+            "value": "B-200"
+          },
+          {
+            "unit": "元/米",
+            "value": "50",
+            "title": "纱单价",
+            "id": "A16"
+          },
+          {
+            "title": "纱小计",
+            "unit": "元",
+            "id": "A17",
+            "value": "300.0"
+          }
+        ],
+        "title": "基础组",
+        "uuid": "5D8EF530-74C3-418F-A556-A46ECD5C6215"
+      },
+      "footerSection": {
+        "title": "合计组",
+        "uuid": "BEB51950-11E9-4484-A1A8-A2BC088991A5",
+        "configs": [
+          {
+            "value": "4980.0",
+            "unit": "元",
+            "title": "总额",
+            "id": "Z10"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "配布",
+          "uuid": "70715AEE-3890-45B1-9332-F64FCC5B91F6",
+          "configs": [
+            {
+              "value": "PB-300",
+              "title": "配布型号",
+              "id": "B13"
+            },
+            {
+              "value": "1",
+              "unit": "米",
+              "title": "配布用量",
+              "id": "B10"
+            },
+            {
+              "value": "20",
+              "unit": "元/米",
+              "title": "配布单价",
+              "id": "B11"
+            },
+            {
+              "unit": "元",
+              "value": "20.0",
+              "title": "小计",
+              "id": "B12"
+            }
+          ]
+        },
+        {
+          "title": "拼接布",
+          "uuid": "C556BBFB-2359-4030-96E1-D273D48D0845",
+          "configs": [
+            {
+              "id": "D13",
+              "title": "拼接布型号",
+              "value": "MERGE"
+            },
+            {
+              "title": "拼接布用量",
+              "id": "D10",
+              "value": "2",
+              "unit": "米"
+            },
+            {
+              "value": "25",
+              "unit": "元/米",
+              "title": "拼接布单价",
+              "id": "D11"
+            },
+            {
+              "title": "小计",
+              "value": "50.0",
+              "unit": "元",
+              "id": "D12"
+            }
+          ]
+        },
+        {
+          "title": "罗马杆",
+          "uuid": "C95180ED-BBA6-4088-A7FD-FA9D2BAA401F",
+          "configs": [
+            {
+              "title": "罗马圈型号",
+              "value": "roma",
+              "id": "C20"
+            },
+            {
+              "title": "罗马圈",
+              "id": "C10",
+              "value": "60",
+              "unit": "元/个"
+            },
+            {
+              "title": "小计",
+              "id": "C11",
+              "value": "2160.0",
+              "unit": "元"
+            },
+            {
+              "id": "C21",
+              "value": "stick",
+              "title": "罗马杆型号"
+            },
+            {
+              "unit": "元/米",
+              "value": "12",
+              "id": "C12",
+              "title": "罗马杆"
+            },
+            {
+              "title": "小计",
+              "value": "36.0",
+              "unit": "元",
+              "id": "C13"
+            },
+            {
+              "id": "C22",
+              "value": "tape-simple",
+              "title": "布带型号"
+            },
+            {
+              "title": "布带",
+              "unit": "元/米",
+              "id": "C14",
+              "value": "15"
+            },
+            {
+              "unit": "元",
+              "value": "90.0",
+              "id": "C15",
+              "title": "小计"
+            }
+          ]
+        },
+        {
+          "title": "钩式",
+          "uuid": "1288177B-A0A9-40B8-AE3D-14F24EC861B7",
+          "configs": [
+            {
+              "id": "F20",
+              "title": "钩子型号",
+              "value": "A"
+            },
+            {
+              "title": "钩子",
+              "id": "F10",
+              "value": "20",
+              "unit": "元/个"
+            },
+            {
+              "title": "钩子小计",
+              "id": "F11",
+              "value": "720.0",
+              "unit": "元"
+            },
+            {
+              "id": "F21",
+              "title": "轨道型号",
+              "value": "A"
+            },
+            {
+              "value": "6",
+              "id": "F12",
+              "title": "轨道",
+              "unit": "元/米"
+            },
+            {
+              "title": "轨道小计",
+              "id": "F13",
+              "value": "18.0",
+              "unit": "元"
+            },
+            {
+              "id": "F22",
+              "title": "布带型号",
+              "value": "70"
+            },
+            {
+              "title": "布带",
+              "value": "5",
+              "unit": "元/米",
+              "id": "F14"
+            },
+            {
+              "title": "小计",
+              "value": "30.0",
+              "unit": "元",
+              "id": "F15"
+            }
+          ]
+        },
+        {
+          "title": "帘头",
+          "uuid": "9BF0B3FF-1DF8-4915-B422-CEC8BAB07D63",
+          "configs": [
+            {
+              "title": "帘头布料型号",
+              "id": "E10",
+              "value": "A"
+            },
+            {
+              "title": "帘头布料",
+              "id": "E11",
+              "value": "5",
+              "unit": "米"
+            },
+            {
+              "value": "55",
+              "title": "帘头布料单价",
+              "id": "E12",
+              "unit": "元/米"
+            },
+            {
+              "value": "275.0",
+              "title": "帘头布料小计",
+              "id": "E13",
+              "unit": "元"
+            },
+            {
+              "title": "帘头轨道型号",
+              "id": "E30",
+              "value": "A"
+            },
+            {
+              "value": "2",
+              "id": "E14",
+              "title": "帘头轨道",
+              "unit": "米"
+            },
+            {
+              "value": "20",
+              "id": "E15",
+              "title": "帘头轨道单价",
+              "unit": "元/米"
+            },
+            {
+              "value": "40.0",
+              "title": "帘头轨道小计",
+              "unit": "元",
+              "id": "E16"
+            },
+            {
+              "title": "帘头花边型号",
+              "id": "E17",
+              "value": "A"
+            },
+            {
+              "value": "3",
+              "title": "帘头花边",
+              "id": "E18",
+              "unit": "米"
+            },
+            {
+              "value": "40",
+              "title": "帘头花边单价",
+              "id": "E19",
+              "unit": "元/米"
+            },
+            {
+              "value": "120.0",
+              "title": "帘头花边小计",
+              "id": "E20",
+              "unit": "元"
+            },
+            {
+              "title": "魔术贴型号",
+              "id": "E21",
+              "value": "-1s"
+            },
+            {
+              "title": "魔术贴用量",
+              "id": "E22",
+              "value": "1",
+              "unit": "米"
+            },
+            {
+              "value": "20",
+              "title": "魔术贴单价",
+              "id": "E23",
+              "unit": "元/米"
+            },
+            {
+              "value": "20.0",
+              "title": "魔术贴小计",
+              "id": "E24",
+              "unit": "元"
+            },
+            {
+              "value": "50",
+              "title": "帘头加工",
+              "id": "E25",
+              "unit": "米"
+            },
+            {
+              "value": "150.0",
+              "title": "帘头加工费",
+              "id": "E26",
+              "unit": "元"
+            },
+            {
+              "value": "100",
+              "title": "其他加工费",
+              "id": "E27",
+              "unit": "元/米"
+            },
+            {
+              "title": "其他加工费",
+              "unit": "元",
+              "id": "E28"
+            }
+          ]
+        },
+        {
+          "title": "配件",
+          "uuid": "744ACB56-D0E1-4FDB-8303-15569352C06E",
+          "configs": [
+            {
+              "title": "花边水晶单价",
+              "id": "H30",
+              "value": "20",
+              "unit": "元/米"
+            },
+            {
+              "value": "80.0",
+              "title": "花边水晶小计",
+              "unit": "元",
+              "id": "H31"
+            },
+            {
+              "id": "H10",
+              "value": "ball",
+              "title": "挂球型号"
+            },
+            {
+              "id": "H11",
+              "title": "挂球对数",
+              "unit": "对",
+              "value": "5"
+            },
+            {
+              "value": "10",
+              "id": "H12",
+              "title": "挂球单价",
+              "unit": "元/个"
+            },
+            {
+              "id": "H13",
+              "title": "挂球小计",
+              "value": "100.0",
+              "unit": "元"
+            },
+            {
+              "id": "H20",
+              "value": "A",
+              "title": "绑带型号"
+            },
+            {
+              "title": "绑带",
+              "value": "5",
+              "unit": "元",
+              "id": "H21"
+            },
+            {
+              "id": "H22",
+              "value": "A",
+              "title": "墙钩型号"
+            },
+            {
+              "id": "H23",
+              "title": "墙钩",
+              "unit": "元",
+              "value": "5"
+            },
+            {
+              "id": "H24",
+              "value": "A",
+              "title": "布料包边型号"
+            },
+            {
+              "id": "H25",
+              "unit": "元",
+              "title": "布料包边",
+              "value": "20"
+            },
+            {
+              "unit": "元",
+              "value": "80.0",
+              "title": "布料包边小计",
+              "id": "H26"
+            },
+            {
+              "id": "H27",
+              "value": "line",
+              "title": "纱铅线型号"
+            },
+            {
+              "id": "H28",
+              "value": "50",
+              "title": "纱铅线",
+              "unit": "元/米"
+            },
+            {
+              "id": "H29",
+              "value": "200.0",
+              "title": "纱铅线小计",
+              "unit": "元"
+            }
+          ]
+        },
+        {
+          "title": "软配组",
+          "uuid": "CB9DD416-77AC-46CB-A257-D28D54356264",
+          "configs": [
+            {
+              "title": "飘窗垫",
+              "unit": "元",
+              "value": "11",
+              "id": "K10"
+            },
+            {
+              "unit": "元",
+              "title": "沙发垫",
+              "value": "12",
+              "id": "K11"
+            },
+            {
+              "title": "抱枕",
+              "value": "13",
+              "id": "K12",
+              "unit": "元"
+            },
+            {
+              "value": "14",
+              "title": "窗旗",
+              "id": "K13",
+              "unit": "元"
+            },
+            {
+              "unit": "元",
+              "value": "15",
+              "title": "桌旗",
+              "id": "K14"
+            }
+          ]
+        },
+        {
+          "title": "其他",
+          "uuid": "610B5E7A-4250-4DEB-918B-945A7BD61E2C",
+          "configs": [
+            {
+              "value": "101",
+              "title": "其他费用1",
+              "id": "L10",
+              "unit": "元"
+            },
+            {
+              "title": "其他费用2",
+              "unit": "元",
+              "value": "102",
+              "id": "L11"
+            },
+            {
+              "unit": "元",
+              "title": "其他费用3",
+              "value": "103",
+              "id": "L12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sections": [],
+      "tag": "curtain-fixheight-type0",
+      "alias": "22",
+      "headerSection": {
+        "title": "基础组",
+        "configs": [
+          {
+            "id": "A11",
+            "unit": "米",
+            "value": "5",
+            "title": "宽度"
+          },
+          {
+            "unit": "米",
+            "value": "5",
+            "id": "A10",
+            "title": "高度"
+          },
+          {
+            "id": "A12",
+            "title": "倍率",
+            "value": "5"
+          },
+          {
+            "unit": "米",
+            "id": "A13",
+            "title": "用料",
+            "value": "25.0"
+          },
+          {
+            "id": "A40",
+            "title": "布型号",
+            "value": "5"
+          },
+          {
+            "unit": "元/米",
+            "title": "布单价",
+            "id": "A14",
+            "value": "5"
+          },
+          {
+            "unit": "元",
+            "title": "布小计",
+            "id": "A15",
+            "value": "125.0"
+          },
+          {
+            "title": "纱型号",
+            "id": "A41",
+            "value": "5"
+          },
+          {
+            "value": "5",
+            "title": "纱单价",
+            "id": "A16",
+            "unit": "元/米"
+          },
+          {
+            "value": "125.0",
+            "title": "纱小计",
+            "id": "A17",
+            "unit": "元"
+          }
+        ],
+        "uuid": "3AFDDC76-37C8-4345-B2CA-D4861C4D840C"
+      },
+      "footerSection": {
+        "title": "合计组",
+        "configs": [
+          {
+            "id": "Z10",
+            "unit": "元",
+            "value": "250.0",
+            "title": "总额"
+          }
+        ],
+        "uuid": "C006DA83-BAAD-4BDD-9D57-D6038ABE2C10"
+      }
+    }
+  ]
+}
