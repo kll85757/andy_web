@@ -13,7 +13,7 @@
     "html2pdf.js": "^0.9.1",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
-    "vant": "^1.5.1",
+    "vant": "^2.1.8",
     "vue": "^2.5.21",
     "vue-fullpage-all": "^1.0.3",
     "vue-router": "^3.0.2"
