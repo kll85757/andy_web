@@ -10,7 +10,7 @@
   "dependencies": {
     "animate.css": "^3.7.0",
     "axios": "^0.19.0",
-    "html2pdf.js": "^0.9.1",
+    "html2pdf.js": "^0.10.1",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "vant": "^1.5.1",
